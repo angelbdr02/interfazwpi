@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WePayIt - Gestiona tus gastos compartidos fácilmente</title>
+    <meta name="description" content="WePayIt es la solución ideal para gestionar gastos compartidos entre amigos, compañeros de piso o en viajes. Registra, calcula y salda cuentas sin complicaciones.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="assets/images/logo.svg" alt="WePayIt Logo">
+                    WePayIt
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#how-it-works">Cómo funciona</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#register" class="btn btn-primary">Registrarse</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate-fade-in">
+                    <h1 class="hero-title">Gestiona gastos compartidos sin complicaciones</h1>
+                    <p class="hero-subtitle">WePayIt automatiza el registro de gastos compartidos, calcula deudas y facilita pagos entre amigos, compañeros de piso o en viajes. Olvídate de las cuentas complicadas.</p>
+                    <div class="hero-cta">
+                        <a href="#register" class="btn btn-primary btn-lg">Comenzar gratis</a>
+                        <a href="#how-it-works" class="btn btn-outline btn-lg">Cómo funciona</a>
+                    </div>
+                </div>
+                <div class="hero-image animate-fade-in delay-2">
+                    <img src="assets/images/hero-app.png" alt="WePayIt App en dispositivos">
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape hero-shape-1"></div>
+        <div class="hero-shape hero-shape-2"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Características principales</h2>
+            <p class="section-subtitle animate-fade-in delay-1">WePayIt ofrece todo lo que necesitas para gestionar gastos compartidos de forma sencilla y transparente.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card animate-fade-in delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="feature-title">Cálculo automático</h3>
+                    <p class="feature-description">Calcula automáticamente quién debe a quién y cuánto, basado en los gastos registrados y la participación de cada persona.</p>
+                </div>
+                
+                <div class="feature-card animate-fade-in delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Gestión de grupos</h3>
+                    <p class="feature-description">Crea grupos para diferentes situaciones: viajes, piso compartido, eventos o cualquier actividad donde compartas gastos.</p>
+                </div>
+                
+                <div class="feature-card animate-fade-in delay-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="feature-title">Múltiples monedas</h3>
+                    <p class="feature-description">Soporte para múltiples monedas, ideal para viajes internacionales o grupos con miembros de diferentes países.</p>
+                </div>
+                
+                <div class="feature-card animate-fade-in delay-2">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title">Notificaciones</h3>
+                    <p class="feature-description">Recibe notificaciones sobre nuevos gastos, pagos recibidos o cuando alguien te solicita un pago pendiente.</p>
+                </div>
+                
+                <div class="feature-card animate-fade-in delay-3">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3 class="feature-title">Historial detallado</h3>
+                    <p class="feature-description">Accede al historial completo de transacciones, gastos y pagos para mantener total transparencia.</p>
+                </div>
+                
+                <div class="feature-card animate-fade-in delay-4">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Gastos recurrentes</h3>
+                    <p class="feature-description">Configura gastos recurrentes para pagos periódicos como alquiler, servicios o suscripciones compartidas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Cómo funciona WePayIt</h2>
+            <p class="section-subtitle animate-fade-in delay-1">En solo unos pasos, podrás gestionar todos tus gastos compartidos sin complicaciones.</p>
+            
+            <div class="steps">
+                <div class="step animate-fade-in delay-2">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Crea un grupo</h3>
+                        <p class="step-description">Registra tu cuenta e invita a tus amigos, compañeros de piso o familiares a unirse a tu grupo de gastos compartidos.</p>
+                    </div>
+                </div>
+                
+                <div class="step animate-fade-in delay-3">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Registra los gastos</h3>
+                        <p class="step-description">Añade los gastos indicando quién pagó, cuánto, en qué moneda y cómo se divide entre los miembros del grupo.</p>
+                    </div>
+                </div>
+                
+                <div class="step animate-fade-in delay-4">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Visualiza los balances</h3>
+                        <p class="step-description">La aplicación calcula automáticamente quién debe a quién y cuánto, mostrando un balance claro y actualizado.</p>
+                    </div>
+                </div>
+                
+                <div class="step animate-fade-in delay-5">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Salda las cuentas</h3>
+                        <p class="step-description">Registra los pagos realizados entre miembros para mantener las cuentas al día y transparentes para todos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title animate-fade-in">Lo que dicen nuestros usuarios</h2>
+            <p class="section-subtitle animate-fade-in delay-1">Miles de personas ya utilizan WePayIt para gestionar sus gastos compartidos.</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-fade-in delay-2">
+                    <p class="testimonial-text">"WePayIt ha cambiado la forma en que gestionamos los gastos en nuestro piso compartido. Ya no hay discusiones sobre quién debe qué, todo está claro y transparente."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="assets/images/testimonial-1.jpg" alt="María García">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>María García</h4>
+                            <p>Estudiante universitaria</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card animate-fade-in delay-3">
+                    <p class="testimonial-text">"Usamos WePayIt en nuestro último viaje a Europa con amigos. Fue increíblemente útil para gestionar gastos en diferentes monedas y saber exactamente cuánto debía cada uno."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="assets/images/testimonial-2.jpg" alt="Carlos Rodríguez">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Carlos Rodríguez</h4>
+                            <p>Profesional viajero</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card animate-fade-in delay-4">
+                    <p class="testimonial-text">"Como organizador de eventos, WePayIt me ha facilitado enormemente la gestión de gastos compartidos. Recomiendo esta app a cualquiera que comparta gastos regularmente."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="assets/images/testimonial-3.jpg" alt="Laura Martínez">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Laura Martínez</h4>
+                            <p>Organizadora de eventos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title animate-fade-in">Simplifica tus gastos compartidos hoy mismo</h2>
+            <p class="cta-subtitle animate-fade-in delay-1">Únete a miles de usuarios que ya disfrutan de una gestión de gastos sin complicaciones.</p>
+            <div class="cta-buttons">
+                <a href="#register" class="btn btn-accent btn-lg animate-fade-in delay-2">Crear cuenta gratis</a>
+                <a href="#features" class="btn btn-outline btn-lg animate-fade-in delay-3" style="color: white; border-color: white;">Ver más características</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Section -->
+    <section class="register-section" id="register">
+        <div class="container">
+            <div class="register-container">
+                <div class="register-image animate-fade-in">
+                    <img src="assets/images/register-image.png" alt="WePayIt en acción">
+                </div>
+                <div class="register-form-container animate-fade-in delay-2">
+                    <div class="register-form">
+                        <h2 class="register-form-title">Crea tu cuenta gratis</h2>
+                        <form id="signup-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nombre completo</label>
+                                <input type="text" id="name" class="form-input" placeholder="Tu nombre completo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" id="email" class="form-input" placeholder="tu@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" id="password" class="form-input" placeholder="Mínimo 8 caracteres" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password" class="form-label">Confirmar contraseña</label>
+                                <input type="password" id="confirm-password" class="form-input" placeholder="Repite tu contraseña" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg form-submit">Registrarse</button>
+                            <p class="form-footer">¿Ya tienes cuenta? <a href="#">Iniciar sesión</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#" class="footer-logo">
+                        <img src="assets/images/logo-white.svg" alt="WePayIt Logo">
+                        WePayIt
+                    </a>
+                    <p class="footer-description">La forma más sencilla de gestionar gastos compartidos con amigos, compañeros de piso o en viajes.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Producto</h3>
+                    <ul class="footer-links">
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#how-it-works">Cómo funciona</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Empresa</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Carreras</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Términos de servicio</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 WePayIt. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
